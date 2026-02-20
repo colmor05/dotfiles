@@ -2,11 +2,9 @@
 
 # Downloads vim if vim is not detected
 if [ ! -d /usr/bin/vim ]; then
-	echo "/usr/bin/vim not found."
 	echo "Downloading vim"
 	sudo apt install vim -y
 fi
-
 # Clones the repo for Vundle if it is not detected
 if [ ! -d "$HOME/.vim" ]; then
 	echo "Downloading Vundle"
@@ -19,6 +17,7 @@ if [ ! -f "$HOME/.vimrc" ]; then
 
 	# Installs the plugins seen at the end of the file
 	echo "Applying Plugins"
+	echo "IF YOU ARE SEEING AN ERROR FOR NOT FINDING THE COLOR SCHEME, PRESS ENTER. IT WILL STILL APPLY."
 	vim +PluginInstall +qall
 	echo "Done"
 

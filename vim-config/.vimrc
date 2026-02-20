@@ -42,8 +42,17 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Color Scheme Plugin
 Plugin 'altercation/vim-colors-solarized'
+
+syntax enable
+set background=dark
+colorscheme solarized
+
+" Improvement Plugin
 Plugin 'vim-airline/vim-airline'
 
-let g:solarized_termcolors=256
-colorschem solarized
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
