@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Downloads vim if vim is not detected
-if [ ./vim != /usr/bin/ ]; then
+if [ /usr/bin/ != /usr/bin/vim ]; then
 	echo "/usr/bin/vim not found."
 	echo "Downloading vim"
 	sudo apt install vim -y
 
 # Clones the repo for Vundle if it is not detected
-if [ .vim != $HOME/ ]; then
+if [ $HOME != $HOME/.vim ]; then
 	echo "Downloading Vundle"
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
