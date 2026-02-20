@@ -9,6 +9,11 @@ fi
 if [ ! -d "$HOME/.vim" ]; then
 	echo "Downloading Vundle"
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+	# Clones the color scheme
+	echo "Downloading Color Scheme"
+ 	git clone https://github.com/altercation/vim-colors-solarized.git
+	mv vim-colors-solarized ~/.vim/bundle/
 fi
 
 # Copies .vimrc from vim-config to home if .vimrc is not in the home directory

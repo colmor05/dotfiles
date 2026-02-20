@@ -45,12 +45,14 @@ filetype plugin indent on    " required
 " Color Scheme Plugin
 Plugin 'altercation/vim-colors-solarized'
 
+let g:solarized_termcolors=256
 syntax enable
 set background=dark
 colorscheme solarized
 
 " Improvement Plugin
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
