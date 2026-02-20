@@ -7,3 +7,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 if [ $HOME != $HOME/.vimrc ]; then
 	cp ./vim-config/.vimrc $HOME/.vimrc
 fi
+
+# Installs the plugins seen at the end of the file
+vim +PluginInstall +qall
+echo "Done"
