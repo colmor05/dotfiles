@@ -5,6 +5,7 @@ if [ /usr/bin/ != /usr/bin/vim ]; then
 	echo "/usr/bin/vim not found."
 	echo "Downloading vim"
 	sudo apt install vim -y
+fi
 
 # Clones the repo for Vundle if it is not detected
 if [ $HOME != $HOME/.vim ]; then
