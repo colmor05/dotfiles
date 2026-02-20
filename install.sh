@@ -16,9 +16,14 @@ fi
 # Copies .vimrc from vim-config to home if .vimrc is not in the home directory
 if [ ! -f "$HOME/.vimrc" ]; then
 	cp ./vim-config/.vimrc $HOME/.vimrc
-fi
 
-# Installs the plugins seen at the end of the file
-echo "Applying Plugins"
-vim +PluginInstall +qall
-echo "Done"
+	# Installs the plugins seen at the end of the file
+	echo "Applying Plugins"
+	vim +PluginInstall +qall
+	echo "Done"
+
+
+else
+	# If .vimrc already exists, this message will display.
+	echo ".vimrc already exists. Run "rm ~/.vimrc" to remove the file and try the installer again"
+fi
