@@ -8,7 +8,13 @@ The plugins include [Vim-Colored-Solarized](https://github.com/altercation/vim-c
 
 ### How to install
 
-Run the following command in a Linux Terminal to install the `.vimrc` file and needed files.
+Clone this repository by running the following command in a Linux Terminal.
+
+```
+git clone https://github.com/colmor05/dotfiles.git
+```
+
+Then run the following command to install the `.vimrc` file and needed files.
 
 ```
 bash install.sh
