@@ -27,7 +27,7 @@ At of the time of writing this, `install.sh` is capable of installing Vundle and
 
 ### Note if a professor is seeing this
 
-This section is only for ideas I have for future use that may not what assignments are asking for. I will not add these features until after the class is over to make things less confusing during grading. If you are interested in the ideas, I will make issues for them.
+This section is only for ideas I have for future use that may not what assignments are asking for. I will not add these features until after the class is over to make things less confusing during grading. If you are interested in the ideas, I will make issues, branches, and pull requests for them.
 
 Thank you for understanding.
 
