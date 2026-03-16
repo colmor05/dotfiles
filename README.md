@@ -33,7 +33,7 @@ Thank you for understanding.
 
 ---
 
-### Using Vim instead of Nano for Git commits
+### Using Vim instead of Nano for Git commits (pull request)
 
 Make or add a line to the `vim-installer.sh` script to include the following command to be executed
 
