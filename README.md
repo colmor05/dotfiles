@@ -22,3 +22,26 @@ bash install.sh
 **That's literally it** 
 
 At of the time of writing this, `install.sh` is capable of installing Vundle and `.vimrc` as well as applying the contents of `.vimrc` to Vim.
+
+## Stuff to add later
+
+### Note if a professor is seeing this
+
+This section is only for ideas I have for future use that may not what assignments are asking for. I will not add these features until after the class is over to make things less confusing during grading. 
+
+Thank you for understanding.
+
+---
+
+### Using Vim instead of Nano for Git commits
+
+Make or add a line to the `vim-installer.sh` script to include the following command to be executed
+
+```
+git config --global core.editor "vim"
+
+export GIT_EDITOR=vim
+```
+
+This allows for the git commit messages to be made using Vim instead of Nano.
+
