@@ -31,3 +31,7 @@ else
 	# If .vimrc already exists, this message will display.
 	echo ".vimrc already exists. Run "rm ~/.vimrc" to remove the file and try the installer again"
 fi
+
+# Makes Git use Vim instead of Nano
+git config --global core.editor "vim"
+export GIT_EDITOR=vim
