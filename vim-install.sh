@@ -3,6 +3,7 @@
 # Downloads vim if vim is not detected
 if [ ! -d /usr/bin/vim ]; then
 	echo "Downloading vim"
+	sudo apt update
 	sudo apt install vim -y
 fi
 # Clones the repo for Vundle if it is not detected
