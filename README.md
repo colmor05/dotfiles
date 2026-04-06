@@ -45,3 +45,8 @@ export GIT_EDITOR=vim
 
 This allows for the git commit messages to be made using Vim instead of Nano.
 
+---
+
+### Make `.zshrc` and `.zsh_aliases` Installer (Issue)
+
+Either make an installer or add to `install-aliases.sh` to check for shell version to download `.zshrc` and `.zsh_aliases`.
