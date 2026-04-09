@@ -17,11 +17,11 @@ git clone https://github.com/colmor05/dotfiles.git
 Then run the following command to install the `.vimrc` file and needed files.
 
 ```
-bash install.sh
+bash vim-install.sh
 ```
 **That's literally it** 
 
-At of the time of writing this, `install.sh` is capable of installing Vundle and `.vimrc` as well as applying the contents of `.vimrc` to Vim.
+At of the time of writing this, `vim-install.sh` is capable of installing Vundle and `.vimrc` as well as applying the contents of `.vimrc` to Vim.
 
 ## Stuff to add later
 
@@ -45,3 +45,8 @@ export GIT_EDITOR=vim
 
 This allows for the git commit messages to be made using Vim instead of Nano.
 
+---
+
+### Make `.zshrc` and `.zsh_aliases` Installer (Issue)
+
+Either make an installer or add to `install-aliases.sh` to check for shell version to download `.zshrc` and `.zsh_aliases`.
