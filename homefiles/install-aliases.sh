@@ -21,7 +21,12 @@ if ! grep -q ".bash_aliases" ~/.bashrc; then
 	echo "source ~/.bash_aliases" >> ~/.bashrc
 fi
 
-# Loads aliases
-source ~/.bash_aliases
+# Prompts user if they want to apply the aliases
+read -p "Do you want to apply .bash_aliases? (y/n): " proceed
+if [[ "$proceed" == "y" ]]; then
+    # Loads aliases
+    echo "Applying .bash_aliases"
+    source ~/.bash_aliases
+fi
 
 echo "Done."

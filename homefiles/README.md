@@ -40,6 +40,14 @@ bash install-aliases.sh
 
     This will run `git log` but it makes it easier to read
 
+- `gs`
+
+    Runs `git status`
+
+- `ga`
+
+    Runs `git add`. Make sure to add a file after you type in `ga`.
+
 ### Network
 
 - `netcheck`
