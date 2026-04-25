@@ -23,6 +23,20 @@ bash vim-install.sh
 
 At of the time of writing this, `vim-install.sh` is capable of installing Vundle and `.vimrc` as well as applying the contents of `.vimrc` to Vim.
 
+---
+
+## [Homefiles](https://github.com/colmor05/dotfiles/tree/main/homefiles)
+
+This contains an installer for `.bash_aliases` to make commands shorter and easier.
+
+---
+
+## [Sys-Installs](https://github.com/colmor05/dotfiles/tree/main/sys-installs)
+
+This contains an installer to download [Singularity CE 4.3.0](https://github.com/sylabs/singularity/discussions/3603)
+
+---
+
 ## Stuff to add later
 
 ### Note if a professor is seeing this
