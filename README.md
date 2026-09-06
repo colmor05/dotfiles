@@ -38,27 +38,6 @@ This contains an installer to download [Singularity CE 4.3.0](https://github.com
 ---
 
 ## Stuff to add later
-
-### Note if a professor is seeing this
-
-This section is only for ideas I have for future use that may not what assignments are asking for. I will not add these features until after the class is over to make things less confusing during grading. If you are interested in the ideas, I will make issues, branches, and pull requests for them.
-
-Thank you for understanding.
-
----
-
-### Using Vim instead of Nano for Git commits (pull request)
-
-Make or add a line to the `vim-installer.sh` script to include the following command to be executed
-
-```
-git config --global core.editor "vim"
-
-export GIT_EDITOR=vim
-```
-
-This allows for the git commit messages to be made using Vim instead of Nano.
-
 ---
 
 ### Make `.zshrc` and `.zsh_aliases` Installer (Issue)
