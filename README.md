@@ -38,7 +38,6 @@ This contains an installer to download [Singularity CE 4.3.0](https://github.com
 ---
 
 ## Stuff to add later
----
 
 ### Make `.zshrc` and `.zsh_aliases` Installer (Issue)
 
