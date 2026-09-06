@@ -17,23 +17,37 @@ git clone https://github.com/colmor05/dotfiles.git
 Then run the following command to install the `.vimrc` file and needed files.
 
 ```
-bash install.sh
+bash vim-install.sh
 ```
 **That's literally it** 
 
-At of the time of writing this, `install.sh` is capable of installing Vundle and `.vimrc` as well as applying the contents of `.vimrc` to Vim.
+At of the time of writing this, `vim-install.sh` is capable of installing Vundle and `.vimrc` as well as applying the contents of `.vimrc` to Vim.
+
+---
+
+## [Homefiles](https://github.com/colmor05/dotfiles/tree/main/homefiles)
+
+This contains an installer for `.bash_aliases` to make commands shorter and easier.
+
+---
+
+## [Sys-Installs](https://github.com/colmor05/dotfiles/tree/main/sys-installs)
+
+This contains an installer to download [Singularity CE 4.3.0](https://github.com/sylabs/singularity/discussions/3603)
+
+---
 
 ## Stuff to add later
 
 ### Note if a professor is seeing this
 
-This section is only for ideas I have for future use that may not what assignments are asking for. I will not add these features until after the class is over to make things less confusing during grading. If you are interested in the ideas, I will make issues for them.
+This section is only for ideas I have for future use that may not what assignments are asking for. I will not add these features until after the class is over to make things less confusing during grading. If you are interested in the ideas, I will make issues, branches, and pull requests for them.
 
 Thank you for understanding.
 
 ---
 
-### Using Vim instead of Nano for Git commits
+### Using Vim instead of Nano for Git commits (pull request)
 
 Make or add a line to the `vim-installer.sh` script to include the following command to be executed
 
@@ -45,3 +59,8 @@ export GIT_EDITOR=vim
 
 This allows for the git commit messages to be made using Vim instead of Nano.
 
+---
+
+### Make `.zshrc` and `.zsh_aliases` Installer (Issue)
+
+Either make an installer or add to `install-aliases.sh` to check for shell version to download `.zshrc` and `.zsh_aliases`.
